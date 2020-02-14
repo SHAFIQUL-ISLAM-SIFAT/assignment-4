@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  height: 50px;
+  border: 1px solid;
+  overflow: hidden;
+  background-color: chartreuse;
+}
+.logo {
+  float: left;
+  /* display: inline-block; */
+}
+.menu a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  /* padding: 0 2px; */
+}
+.menu nav {
+  float: right;
+}
+
+.menu nav a {
+  padding: 0 5px;
+}
+header {
+  text-align: center;
+  background-color: coral;
+  border: 1px solid;
+  height: 150px;
+}
+.content {
+  height: 400px;
+  margin-top: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+.left {
+  width: 19%;
+  height: 100%;
+  float: left;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+.center {
+  height: 100%;
+  width: 60%;
+  margin-left: 1%;
+  float: left;
+  /* border: 1px solid; */
+  /* background-color: coral; */
+}
+.center-top {
+  height: 19%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: darkkhaki;
+}
+.middle {
+  height: 60%;
+  margin: 0.5% 0;
+  /* border: 1px solid; */
+}
+.left-middle {
+  height: 100%;
+  width: 49%;
+  border: 1px solid;
+  border-radius: 10px;
+  float: left;
+  background-color: darkkhaki;
+}
+.right-middle {
+  height: 100%;
+  width: 49%;
+  float: left;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: darkkhaki;
+  margin-left: 2%;
+}
+.bottom {
+  height: 19%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: darkkhaki;
+}
+.right {
+  height: 100%;
+  width: 19%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  float: right;
+}
+footer {
+  text-align: center;
+  border: 1px solid;
+  margin-top: 10px;
+  background-color: blueviolet;
+  height: 50px;
+}
+.fa-color {
+  color: black;
+}
